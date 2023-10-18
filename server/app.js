@@ -17,9 +17,9 @@ app.use(require('./router/auth'));
 
 
 
-// app.get('/about',(req,res)=>{
-//     res.send('About page');
-// });
+app.get('/about',(req,res)=>{
+    res.send('About page');
+});
 
 
 
